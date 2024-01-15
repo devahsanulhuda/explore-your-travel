@@ -1,0 +1,112 @@
+/* Shared common styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+main {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+/* Header section styles */
+
+/* nav styles */
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    gap: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.nav-title {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    padding-right: 50px;
+}
+
+.travel {
+    color: #FF5400;
+    font-size: 2.25rem;
+    font-weight: 800;
+    padding-right: 10px;
+
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav li a {
+    color: gray;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+/* hero section styles */
+
+.hero {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.hero-explore {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background-image: url('../images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 0;
+}
+
+.hero-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.hero-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.hero-form{
+    
+}

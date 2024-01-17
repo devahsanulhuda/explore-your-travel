@@ -5,11 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore Your Travel</title>
+
+    <!-- css links -->
     <link rel="stylesheet" href="styles/travel.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+
+
+    <script src="https://kit.fontawesome.com/7a5abb4836.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+    <!-- Start Header section -->
+
     <header>
+
         <section class="header">
             <div class="header-logo">
                 <img src="images/Group 40071 (2).png" alt="">
@@ -17,34 +27,290 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Packages</a></li>
-                    <li><a href="">Testimonial</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li class="nav-nam"><a href="">Home</a></li>
+                    <li class="nav-nam"><a href="">Packages</a></li>
+                    <li class="nav-nam"><a href="">Testimonial</a></li>
+                    <li class="nav-nam"><a href="">Blog</a></li>
+                    <li class="nav-nam"><a href="">Contact</a></li>
+                    <li class="nav-bar"><a href=""><i class="fa-solid fa-bars"></i></a></li>
                 </ul>
             </nav>
         </section>
-        
+
         <section class="hero">
-            <div class="hero-explore">
-                <h2 class="hero-title">Explore Your Travel</h2>
-                <p class="hero-description"> Travel—we’re talking about those once-in-a-lifetime trips that push us way outside our comfort zones. Adventure travel is a great way to see more of the world, while also testing your physical limits, and coming home with a lifetime's worth of stories to tell at parties.</p>
-                
-                <form action="" class="hero-form">
-                    <input type="text" name="" id="" placeholder="Where go">
-                    <select name="" id="">
-                        <option value="">When</option>      
-                    </select>
-                    <select name="" id="">
-                        <option value="">Select Type</option>
-                    </select>
-                   <button>Find Now</button>
+
+            <h2 class="hero-title">Explore Your Travel</h2>
+            <p class="hero-description">Embark on endless adventures with 'Explore Your Travel.' Discover captivating destinations and
+                create timeless memories with our curated travel experiences.</p>
+
+            <form action="" class="hero-form">
+                <input type="text" placeholder="Where go">
+                <select name="When" id="When">
+                    <option value="" disabled selected hidden>When</option>
+                </select>
+                <select name="Select Type" id="Select Type">
+                    <option value="" disabled selected hidden>Select Type</option>
+                </select>
+                <button class="search" type="search"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+            </form>
+        </section>
+
+    </header>
+
+    <!-- End of the header section -->
+
+    <!-- Start Main section -->
+
+    <main>
+
+        <!-- Start Tours section -->
+
+        <section class="tours">
+            <div class="tours-container">
+                <h2 class="tours-title">Our Popular Tours</h2>
+                <div class="tours-description">
+                    <p>Indulge in unforgettable adventures with our popular tours. Immerse yourself in curated experiences, from iconic landmarks to hidden gems, ensuring every journey is exceptional.</p>
+                    <li>Diverse Destinations: Explore a myriad of destinations, each carefully chosen for its unique charm and cultural richness.</li>
+                    <li>Snow-capped peaks, alpine meadows and azure lakes are just a few reasons why Glacier National
+                        Park is one of America's most striking parks. </li>
+                    <li> Expertly Crafted Itineraries: Our meticulously planned itineraries guarantee a seamless and immersive travel experience, allowing you to focus on creating memories.</li>
+                    <p>Local Insight, Global Flair: Benefit from our local expertise and global perspective, ensuring an authentic encounter with each destination. Join us for extraordinary journeys that transcend the ordinary.</p>
+
+                </div>
+                <button class="btn-primary">Read More</button>
+            </div>
+            <img src="images/Rectangle 4.png" alt="" class="tour-img">
+        </section>
+
+        <!-- End of the Tours section -->
+
+        <!-- Start of the destination section -->
+
+        <section class="destination">
+            <h2 class="destination-title">Choose Your Destination</h2>
+
+            <p class="destination-des">Select your next adventure with 'Choose Your Destination.' Explore diverse landscapes, rich cultures, and create lasting memories with us..</p>
+
+            <div class="destination-content">
+                <div class="mald ">
+
+                    <h3>Maldives</h3>
+                </div>
+                <div class="indo">
+                    <h3>Indonesia</h3>
+                </div>
+                <div class="sril">
+                    <h3>Srilanka</h3>
+                </div>
+                <div class="amer">
+                    <h3>North America</h3>
+                </div>
+                <div class="kashmir">
+                    <h3>Kashmir</h3>
+                </div>
+                <div class="bangla">
+                    <h3>Bangladesh</h3>
+                </div>
+                <div class="banda">
+                    <h3>Bandarban</h3>
+                </div>
             </div>
         </section>
 
+        <!-- End of the destination section -->
 
-    </header>
+        <!-- start choose section -->
+       
+        <section class="choose">
+            <h2 class="choose-title">Why Choose Us</h2>
+            <p class="choose-des">
+                Discover why we stand out. Unparalleled service, curated experiences, and a passion for travel make us your ideal journey companion.
+            </p>
+            <div class="choose-content">
+                <div class="choose-box color-1">
+                    <img src="images/hotel 1.png" alt="">
+                    <h4 class="choose-box-title">Handpicked Hotels</h4>
+                    <p class="choose-box-des">Indulge in luxury with our handpicked hotels. Immerse yourself in comfort, style, and exceptional service for an unforgettable stay. </p>
+                </div>
+                <div class="choose-box color-2">
+                    <img src="images/map 1.png" alt="">
+                    <h4 class="choose-box-title">World Class Service</h4>
+                    <p class="choose-box-des">Experience excellence with our world-class service. Personalized care, attention to detail, and a commitment to your satisfaction define our hospitality.</p>
+                </div>
+            </div>
+            <div class="choose-content-2">
+                <div class="choose-box color-3">
+                    <img src="images/price-tag 1.png" alt="">
+                    <h4 class="choose-box-title">Best Price Guarantee</h4>
+                    <p class="choose-box-des">Secure the best deals with our Price Guarantee. Unbeatable prices ensure your dream vacation is not only extraordinary but affordable too. </p>
+                </div>
+            </div>
+        </section>
+      
+      <!-- end of the choose section -->
+
+      <!-- start discount section -->
+
+      <section class="discount">
+        <h3 class="discount-title">Deals & Discounts</h3>
+        <p class="discount-des">My training only includes information available up to January 2022, and I don't have browsing capabilities to fetch current data.</p>
+        <div class="discount-content">
+            <div class="discount-sub-content">
+                <div class="discount-min">
+                    <div class="discount-icon">
+                        <img src="images/Frame.png" alt="">
+                        <h5>7 Day / 6 Night</h5>
+                    </div>
+                    <div class="discount-icon">
+                        <img src="images/Frame (1).png" alt="">
+                        <h5>Max : 10</h5>
+                    </div>
+                    <div class="discount-icon">
+                        <img src="images/Frame (2).png" alt="">
+                        <h5>Malaysia</h5>
+                    </div>
+                </div>
+                <h4 class="discount-in-title">Tour To Satorini</h4>
+                <p class="discount-in-des">Check the official websites of your favorite retailers for ongoing promotions and discounts.</p>
+                <h5 class="discount-in-price">Price: $1300-$1500</h5>
+                <button class="btn-primary">Book Now</button>
+            </div>
+        </div>
+        <div class="discount-content discount-mid">
+            <div class="discount-sub-content">
+                <div class="discount-min">
+                    <div class="discount-icon">
+                        <img src="images/Frame.png" alt="">
+                        <h5>7 Day / 6 Night</h5>
+                    </div>
+                    <div class="discount-icon">
+                        <img src="images/Frame (1).png" alt="">
+                        <h5>Max : 10</h5>
+                    </div>
+                    <div class="discount-icon">
+                        <img src="images/Frame (2).png" alt="">
+                        <h5>Malaysia</h5>
+                    </div>
+                </div>
+                <h4 class="discountin-in-title">Tour To Satorini</h4>
+                <p class="discount-in-des">Check the official websites of your favorite retailers for ongoing promotions and discounts.</p>
+                <h5 class="discount-in-price">Price: $1300-$1500</h5>
+                <button class="btn-primary">Book Now</button>
+            </div>
+        </div>
+        <div class="discount-content">
+            <div class="discount-sub-content">
+                <div class="discount-min">
+                    <div class="discount-icon">
+                        <img src="images/Frame.png" alt="">
+                        <h5>7 Day / 6 Night</h5>
+                    </div>
+                    <div class="discount-icon">
+                        <img src="images/Frame (1).png" alt="">
+                        <h5>Max : 10</h5>
+                    </div>
+                    <div class="discount-icon">
+                        <img src="images/Frame (2).png" alt="">
+                        <h5>Malaysia</h5>
+                    </div>
+                </div>
+                <h4 class="discount-in-title">Tour To Satorini</h4>
+                <p class="discount-in-des">Check the official websites of your favorite retailers for ongoing promotions and discounts.</p>
+                <h5 class="discount-in-price">Price: $1300-$1500</h5>
+                <button class="btn-primary">Book Now</button>
+            </div>
+        </div>
+       
+
+        <div class="discount-btn">
+            <button class="btn-primary">See All Packagesss</button>
+        </div>
+                      
+        
+      </section>
+
+      <!-- start Place section -->
+
+        
+      <section class="place">
+        <div class="place-left">
+            <h2 class="place-left-title">
+                A Simple Perfect Place <br> To Get Lost
+            </h2>
+            <div class="place-left-des">
+                <p>
+                    Welcome to 'A Simple Perfect Place To Get Lost.' Immerse yourself in wanderlust where every corner holds untold stories. Explore:
+                </p>
+
+                <li>
+                    Serene Retreats: Unwind in idyllic destinations, from tranquil beaches to charming mountain hideaways.
+
+                </li>
+                <li>
+                    Cultural Odyssey: Immerse in diverse cultures, savor local flavors, and embrace the beauty of the unknown. Your journey begins here.
+                </li>
+
+            </div>
+            <button class="btn-primary">See More</button>
+        </div>
+        <video id="video" controls src="video/pexels_videos_3665 (1080p).mp4" width="610px"></video>z
+    </section>
+
+        <!--End of the place section -->
+
+        <!-- start letter section -->
+
+  <section class="news">
+    <div class="news-left">
+        <h4 class="news-left-title">Newsletter</h4>
+        <p class="news-left-des">
+            Get your daily dose of travel news & tips. Sign up today!
+        </p>
+        <form class="news-form">
+            <input type="text" name="" id="" placeholder="Enter your name">
+            <input type="email" name="" id="" placeholder="Enter your email">
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+    <div class="news-right">
+        <img src="Images/Rectangle 8 (1).png" alt="">
+    </div>
+</section>
+
+     <!-- end of the letter section -->
+
+    </main>
+   
+      <!-- End of the main section -->
+
+    <footer>
+
+    <!-- start footer section -->
+
+        <section class="footer">
+            <div class="footer-logo">
+                <img src="images/Group 40071 (2).png" alt="">
+                <h3 class="footer-title">Hero<span class="travel2"> Travel</span></h3>
+            </div>
+            <div class="footer-des">
+                <p>Stay connected. Explore more. Follow us for travel inspiration and exclusive offers. Your journey continues with us. </p>
+            </div>
+            <div class="footer-icons">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+
+            <div class="footer-down">
+                <p>2017, All Rights Reserved.</p>
+                <p>Developed By Ahsanul Huda </p>
+            </div>
+        </section>
+    </footer>
+
+    <!-- end of the footer section -->
+
 
 </body>
 

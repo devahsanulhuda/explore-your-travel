@@ -1,0 +1,129 @@
+/* Mobile Devices */
+@media screen and (max-width: 600px) {
+
+    header, .footer {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header {
+        padding: 20px 0;
+    }
+
+    main {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .humburger {
+        display: block;
+    }
+
+    .menu-items {
+        display: none;
+    }
+
+    .hero {
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .hero-title,
+    .section-title {
+        font-size: 1.375rem;
+    }
+
+    .hero-des,
+    .section-des {
+        width: 100%;
+        font-size: 14px;
+        margin: 20px auto 20px auto;
+        padding: 0 20px;
+    }
+
+    .hero-form {
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tour {
+        margin: 25px 0;
+        flex-direction: column;
+    }
+
+    .destination-container {
+        grid-template-areas:
+            "Maldives"
+            "Indonesia"
+            "Srilanka"
+            "North-America"
+            "Kashmir"
+            "Bangladesh"
+            "Bandarban"
+        ;
+
+    }
+
+    .service {
+        margin: 24px 0;
+    }
+
+    .service-container {
+        gap: 24px;
+        display: grid;
+        flex-direction: column;
+    }
+
+    .service-container-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .service-box {
+        width: 100%;
+        padding: 32px;
+    }
+
+    .deal {
+        margin: 24px 0;
+    }
+
+    .deal-container {
+        padding: 8rem 1rem 1rem 1rem;
+    }
+
+    .deal-box {
+        width: 100%;
+        padding: 24px;
+    }
+
+    .place{
+        margin: 24px 0;
+        display: grid;
+        flex-direction: column;
+    }
+
+    .place-left{
+        max-width: 100%;
+    }
+    
+    .news{
+        margin-bottom: 24px;
+        display: grid;
+        flex-direction: column;
+    }
+
+    .news-right img{
+        width: 100%;
+    }
+
+    .footer-des{
+        width: 100%;
+    }
+
+}
+
+

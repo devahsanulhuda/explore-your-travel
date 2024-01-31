@@ -416,7 +416,7 @@ li {
 
 .discount-content{
     padding: 56px;
-    background-image: url('../Images/Group\ 39.png');
+    background-image: url('../images/Group\ 39.png');
     background-repeat: no-repeat;
     border-radius: 16px;
     display: flex;
@@ -425,7 +425,7 @@ li {
 }
 
 .discount-content-mid {
-    background-image: url('../Images/Group\ 40.png');
+    background-image: url('../images/Group\ 40.png');
     display: flex;
     justify-content: flex-start;
 }
